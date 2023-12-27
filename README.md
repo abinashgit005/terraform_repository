@@ -24,6 +24,13 @@ also if the file name ends with ".auto.tfvars" and ".auto.tfvars.json"
 
 > [!CAUTION]
 > Never delete or manipulate the terraform.tfstae file by yourself.
+
+## terraform commands
+
+### terraform init
+### terraform plan
+### terraform apply
+### terraform destory
 ### terraform validate
 to validate the code.
 ### terraform refresh
@@ -33,9 +40,6 @@ It does not modify the real infrastructure by any means.
 > [!IMPORTANT]
 > Suppose you have 2 resources and want to destroy one resource, then you can use terraform target "resource_type"."resource name"
 
-### terraform plan
-### terraform apply
-### terraform destory
 ### terraform console
 This can be used for debugging purpose.
 If you want to print any variable to check the value in the current directory, you can use terraform console and exit command to exit from the console.
